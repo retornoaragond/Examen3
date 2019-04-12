@@ -1,6 +1,7 @@
 body {
-    background-image: url("img/background.jpg");
-    background-color: #cccccc;
+    background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
+        url("../img/background3.png");
+
 }
 
 .social:hover {
@@ -11,8 +12,6 @@ body {
 
 .social {
     -webkit-transform: scale(0.8);
-    /* Browser Variations: */
-
     -moz-transform: scale(0.8);
     -o-transform: scale(0.8);
     -webkit-transition-duration: 0.5s;
@@ -20,10 +19,6 @@ body {
     -o-transition-duration: 0.5s;
     color: black;
 }
-
-/*
-   Multicoloured Hover Variations
-*/
 
 #social-yt:hover {
     color: #FF0000;
@@ -51,19 +46,15 @@ body {
     -webkit-text-fill-color: transparent;
 }
 
-
-
 .nav-item a {
     color: rgb(0, 0, 0);
     text-decoration: none;
-    font: 20px Century Gothic;
+    font-size: 20px;
     margin: 0px 10px;
     position: relative;
     z-index: 0;
 }
 
-
-/* Top & Bottom Borders Out */
 .topBotomBordersOut a:before,
 .topBotomBordersOut a:after {
     position: absolute;
@@ -94,5 +85,5 @@ body {
 }
 
 .menum {
-    background-color: #4099FF;
+    background-color: rgb(162, 196, 206);
 }
