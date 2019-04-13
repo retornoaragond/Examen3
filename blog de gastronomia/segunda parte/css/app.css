@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+body {
+	background-image: url(../img/background.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+  	
+}
+
+.contenedor {
+	background-color: rgb(57, 162, 189);
+	opacity: 0.9;
+}
+
+/*clase del header*/
+#encabezado {
+	color: white;
+	border-right: solid 2px white;
+}
+
+.nombre {
+	text-align: left;
+}
+
+.slogan {
+	text-align: right;
+}
+
+/*clase para el contenedor*/
+.secciones {
+	border-top: solid 2px white;
+}
+
+/*clase de busqueda*/
+#busqueda {
+	background-color: rgb(231, 159, 52);	
+}
+
+/*clase de contenido*/
+.contenido {
+	background-color: rgb(224, 69, 69);
+	color: white;
+}
+
+.comentarios {
+	border-top: solid 2px white;
+}
+
+.usuario {
+	background-color:rgb(231, 159, 52);
+}
+
+.faboritasimg{
+	height: 80px;
+}
