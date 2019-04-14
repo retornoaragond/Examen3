@@ -12,7 +12,6 @@ body {
 	opacity: 0.9;
 }
 
-/*clase del header*/
 #encabezado {
 	color: white;
 	border-right: solid 2px white;
@@ -26,17 +25,14 @@ body {
 	text-align: right;
 }
 
-/*clase para el contenedor*/
 .secciones {
 	border-top: solid 2px white;
 }
 
-/*clase de busqueda*/
 #busqueda {
 	background-color: rgb(231, 159, 52);	
 }
 
-/*clase de contenido*/
 .contenido {
 	background-color: rgb(224, 69, 69);
 	color: white;
